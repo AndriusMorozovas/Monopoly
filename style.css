@@ -1,0 +1,202 @@
+/*Flexbox*/
+
+.padding-left {
+    padding-left: 30px;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.margin-top10 {
+    margin-top: 10px;
+}
+
+.margin-bottom30 {
+    margin-bottom: 30px;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.gap25 {
+    gap: 25px;
+}
+
+.grow1 {
+    flex: 1;
+}
+
+.grow2 {
+    flex: 2;
+}
+
+.grow3 {
+    flex: 3;
+}
+
+.grow4 {
+    flex: 4;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-reverseRow {
+    flex-direction: row-reverse;
+}
+
+.f-reverseColumn {
+    flex-direction: column-reverse;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: flex-end;
+}
+
+.f-colWrap {
+    flex-flow: column wrap;
+}
+
+.rotate90 {
+    rotate: 90deg;
+}
+
+.d-none {
+    display: none;
+}
+
+/*INDIVIDUAL CLASSES*/
+
+.board {
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 120px repeat(9, 80px) 120px;
+    grid-template-rows: 120px repeat(9, 80px) 120px;
+}
+
+.center {
+    grid-column: 2 / 11;
+    grid-row: 2 / 11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    z-index: 1;
+}
+
+.property {
+    border: 1px solid black;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    font-size: 11px;
+}
+
+.property-color {
+    height: 40px;
+    width: 100%;
+}
+
+.player {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.4;
+}
+
+h3, h4 {
+    margin: 0
+}
+
+.brown {
+    background-color: brown;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: #4fc34f;
+}
+
+.darkblue {
+    background-color: #8989cd;
+}
+
+.black {
+    background-color: black;
+}
+
+.purple {
+    background-color: purple;
+}
